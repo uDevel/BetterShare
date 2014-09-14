@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tv_titleText_background"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="15dp"
+        android:text="SHARE"
+        android:textColor="@color/tv_titleText_textColor"
+        android:textScaleX="1.1"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/ll_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"></LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/tv_shareMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MORE"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:background="@drawable/selector_button_share_more"
+        android:textSize="12dp"
+        android:padding="10dp"
+        android:textColor="@color/selector_share_more"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tv_titleText_background">#444</color>
+    <color name="tv_titleText_textColor">#ffffff</color>
+    <color name="rl_share_background">#fff2f2f2</color>
+    <color name="rl_share_background_pressed">#dd33b5e5</color>
+    <color name="tv_shareMore_background">#eee</color>
+    <color name="tv_shareMore_background_pressed">#dd33b5e5</color>
+    <color name="tv_shareMore_textColor_pressed">#ffffff</color>
+    <color name="tv_shareMore_textColor">#dd33b5e5</color>
+    <color name="tv_share_appName_textColor">#d1222524</color>
+
+
+
+
+    <color name="invisible">#00000000</color>
+
+
+
+
+</resources>
