@@ -6,16 +6,17 @@ This project aims to provide developers a simple modern share dialog.
 
 
 ## Features
-Will update
+- Singleton implementation - avoid multi instances from accidental double click
+- Prioritize commonly used share activities
+- Prioritize last used share activitiey
+More to come
 
 ## Usage
 
 ``` java
-
     DialogFrag_BetterShare.setup("BetterShare Subject", "BetterShare Text", true);
     DialogFrag_BetterShare dialogFrag_betterShare = DialogFrag_BetterShare.getInstance();
     dialogFrag_betterShare.show(getFragmentManager(), TAG_SHARE_DIALOG_FRAGMENT);
-
 ```
 ## License
 Copyright (c) 2014 Benny Chau 
