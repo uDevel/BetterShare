@@ -8,7 +8,7 @@ This project aims to provide developers a simple modern share dialog.
 ## Features
 Will update
 
-##
+## Usage
 Will update
 
 ## License

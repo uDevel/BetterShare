@@ -31,6 +31,7 @@ public class Activity_BetterShareExample extends Activity implements View.OnClic
     @Override
     public void onClick(View v)
     {
+        DialogFrag_BetterShare.setup("BetterShare Subject", "BetterShare Text", true);
         DialogFrag_BetterShare dialogFrag_betterShare = DialogFrag_BetterShare.getInstance();
         dialogFrag_betterShare.show(getFragmentManager(), TAG_SHARE_DIALOG_FRAGMENT);
     }
