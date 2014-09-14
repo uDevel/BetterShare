@@ -4,9 +4,11 @@
 
 This project aims to provide developers a simple modern share dialog.
 
+![alt tag](https://raw.github.com/turbo2pointo/BetterShare/master/demo.png)
 
 ## Features
 - Singleton implementation - avoid multi instances from accidental double click
+- Dialog fragment implementation - safely handled orientation changes
 - Prioritize commonly used share activities
 - Prioritize last used share activitiey
 More to come
