@@ -9,8 +9,14 @@ This project aims to provide developers a simple modern share dialog.
 Will update
 
 ## Usage
-Will update
 
+``` java
+
+    DialogFrag_BetterShare.setup("BetterShare Subject", "BetterShare Text", true);
+    DialogFrag_BetterShare dialogFrag_betterShare = DialogFrag_BetterShare.getInstance();
+    dialogFrag_betterShare.show(getFragmentManager(), TAG_SHARE_DIALOG_FRAGMENT);
+
+```
 ## License
 Copyright (c) 2014 Benny Chau 
 
