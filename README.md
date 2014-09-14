@@ -1,6 +1,6 @@
 ## ! Under construction !
 
-# A modern better looking share dialog for Android
+# A simple modern share dialog for Android
 
 This project aims to provide developers a simple modern share dialog.
 
